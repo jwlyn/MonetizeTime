@@ -84,6 +84,7 @@ stopButton.addEventListener("click", () => {
       end: endTime,
       diamonds: diamonds
     });
+    taskName = '';
     displayHistory();
   }
   seconds = 0;
